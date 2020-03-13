@@ -1,0 +1,37 @@
+.header__btns{
+  display: flex;
+  align-items: center;
+}
+.menu__list {
+  display: flex;
+  align-items: center;
+}
+
+.menu__item {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 13px;
+
+  &:before {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: currentColor;
+    margin-left: 13px;
+  }
+
+  &:first-child {
+    &:before {
+      display: none;
+    }
+  }
+}
+
+.menu__link {
+  margin-left: 13px;
+  text-decoration: none;
+  text-transform: uppercase;
+}

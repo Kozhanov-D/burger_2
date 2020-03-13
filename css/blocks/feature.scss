@@ -1,0 +1,14 @@
+.feature {
+  text-align: center;
+}
+
+.feature__img {
+  display: flex;
+  justify-content: center;
+}
+
+.feature__title {
+  @include lifehack();
+  font-size: 25px;
+  line-height: 1.1;
+}
