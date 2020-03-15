@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'lifehack'.
-        on line 22 of D:\LS__Web\pr burger\project burger\css\blocks\hero.scss, in `lifehack'
-        from line 22 of D:\LS__Web\pr burger\project burger\css\blocks\hero.scss
+        on line 25 of D:\LS__Web\pr burger\project burger\css\blocks\hero.scss, in `lifehack'
+        from line 25 of D:\LS__Web\pr burger\project burger\css\blocks\hero.scss
 
-17:   padding-top: 5px;
-18:   margin-left: 20px;
-19:   font-size: 65px;
-20:   color: #fff;
-21:   line-height: 1.1;
-22:   @include lifehack();
-23: }
-24: 
-25: .hero__subtitle {
-26:   font-size: 65px;
-27:   color: #fff;
+20:   padding-top: 5px;
+21:   margin-left: 20px;
+22:   font-size: 65px;
+23:   color: #fff;
+24:   line-height: 1.1;
+25:   @include lifehack();
+26: }
+27: 
+28: .hero__subtitle {
+29:   font-size: 65px;
+30:   color: #fff;
 
 Backtrace:
-D:\LS__Web\pr burger\project burger\css\blocks\hero.scss:22:in `lifehack'
-D:\LS__Web\pr burger\project burger\css\blocks\hero.scss:22
+D:\LS__Web\pr burger\project burger\css\blocks\hero.scss:25:in `lifehack'
+D:\LS__Web\pr burger\project burger\css\blocks\hero.scss:25
 D:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 D:/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 D:/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -66,4 +66,4 @@ D:/koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'lifehack'.\A         on line 22 of D:\LS__Web\pr burger\project burger\css\blocks\hero.scss, in `lifehack'\A         from line 22 of D:\LS__Web\pr burger\project burger\css\blocks\hero.scss\A \A 17:   padding-top: 5px;\A 18:   margin-left: 20px;\A 19:   font-size: 65px;\A 20:   color: #fff;\A 21:   line-height: 1.1;\A 22:   @include lifehack();\A 23: }\A 24: \A 25: .hero__subtitle {\A 26:   font-size: 65px;\A 27:   color: #fff;"; }
+  content: "Error: Undefined mixin 'lifehack'.\A         on line 25 of D:\LS__Web\pr burger\project burger\css\blocks\hero.scss, in `lifehack'\A         from line 25 of D:\LS__Web\pr burger\project burger\css\blocks\hero.scss\A \A 20:   padding-top: 5px;\A 21:   margin-left: 20px;\A 22:   font-size: 65px;\A 23:   color: #fff;\A 24:   line-height: 1.1;\A 25:   @include lifehack();\A 26: }\A 27: \A 28: .hero__subtitle {\A 29:   font-size: 65px;\A 30:   color: #fff;"; }
